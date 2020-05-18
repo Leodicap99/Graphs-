@@ -1,3 +1,4 @@
+/*
 Finding bridges in a graph in O(N+M)
 A bridge is defined as an edge which, when removed, makes the graph disconnected (or more precisely, increases the number of connected components in the graph).
 
@@ -11,7 +12,7 @@ Now, there is a back edge from vertex v or one of its descendants to one of its 
 the back edge comes directly to v, otherwise it comes to one of the ancestors of v.
 Thus, the current edge (v,to)
 in the DFS tree is a bridge if and only if low[to]>id[v].
-
+*/
 vector<vector<int>> graph;
 vector<bool> vis;
 vector<int> id,low;
