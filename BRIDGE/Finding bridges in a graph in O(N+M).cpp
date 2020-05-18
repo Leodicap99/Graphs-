@@ -21,6 +21,7 @@ int time;
 void dfs(int v,int p=-1)
 {
 	vis[v]=true;
+	id[v]=low[v]=time++;
 	for(auto &to:graph[v])
 	{
 		if(vis[to])
