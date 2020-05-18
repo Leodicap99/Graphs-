@@ -1,4 +1,4 @@
-Checking a graph for acyclicity and finding a cycle in O(M)
+Checking a graph for acyclicity and finding a cycle in O(E)
 Consider a directed or undirected graph without loops and multiple edges. We have to check whether it is acyclic, and if it is not, then find any cycle.
 
 Algorithm
